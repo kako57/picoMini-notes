@@ -1,0 +1,12 @@
+This time, we are given a dictionary to use.
+The dictionary just lists all possible passwords.
+
+I guess this challenge is to make sure that the person cracking the password
+actually knows how to write a script for a dictionary attack using a wordlist
+
+$ python3 solve.py
+picoCTF{h45h_sl1ng1ng_36e992a6}
+
+I wrote a script that can actually make use of multithreading,
+but I guess the challenge is too simple; the script finished in less than a second
+even with only one thread. It's still way quicker than actually doing it by hand.

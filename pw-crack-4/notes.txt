@@ -1,0 +1,8 @@
+So just like in the password crack 3, but with more passwords
+
+So we do the same solution as before,
+but since a 100 strings might be too much noise,
+I made sure I only print the actual flag
+
+$ python3 solve.py
+picoCTF{fl45h_5pr1ng1ng_d770d48c}

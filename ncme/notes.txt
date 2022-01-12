@@ -1,0 +1,1 @@
+just ran the netcat command provided then got the flag

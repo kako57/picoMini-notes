@@ -1,0 +1,11 @@
+So the script does the XOR pad decryption but unlike in convertme.py where the password is exposed,
+this time we have to enter the password ourselves.
+
+But just like convertme.py, the password is still exposed.
+
+Entering the password will give us the flag.
+
+$ python3 solve.py
+Please enter correct password for flag: 17ac
+Welcome back... your flag, user:
+picoCTF{545h_r1ng1ng_7719ae74}

@@ -1,0 +1,1 @@
+picoCTF{s4n1ty_c4t}

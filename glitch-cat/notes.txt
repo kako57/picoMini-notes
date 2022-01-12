@@ -1,0 +1,13 @@
+We run the nc command from the challenge
+$ nc saturn.picoctf.net 50562
+'picoCTF{gl17ch_m3_n07_' + chr(0x38) + chr(0x39) + chr(0x38) + chr(0x61) + chr(0x33) + chr(0x66) + chr(0x61) + chr(0x36) + '}'
+$
+
+The output looks like it can be run through python,
+so I ran the netcat with python3, with the interactive flag "-i"
+
+$ nc saturn.picoctf.net 50562 | python3 -i
+Python 3.10.1 (main, Dec  9 2021, 00:00:00) [GCC 11.2.1 20211203 (Red Hat 11.2.1-7)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 'picoCTF{gl17ch_m3_n07_898a3fa6}'
+>>>

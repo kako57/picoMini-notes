@@ -1,0 +1,6 @@
+Again just like in the password crack challenges, the password is exposed.
+
+We can get just the xor decryption then put that in another file so it can be run.
+
+$ python3 solve.py
+picoCTF{7h3_r04d_l355_7r4v3l3d_ae743140}

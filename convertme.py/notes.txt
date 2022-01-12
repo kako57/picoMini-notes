@@ -1,0 +1,12 @@
+so in the convertme.py file, there is the encrypted version of the flag.
+by reading the code we can also see that the flag was encrypted using an XOR pad with the key 'enkidu'
+
+so you can create a copy of the python script and modify it so the xor is done on the encrypted flag
+without asking you about base convertion
+
+but, of course, the challenge is in converting decimal to binary so I still did it that way
+
+$ python3 convertme.py
+If 23 is in decimal base, what is it in binary base?
+Answer: 10111
+That is correct! Here's your flag: picoCTF{4ll_y0ur_b4535_8730f5cd}

@@ -1,0 +1,14 @@
+By reading hint 1, we're looking for a typo in equality/assignment
+
+The typo is at the if statement
+
+if flag = "":
+  print('String XOR encountered a problem, quitting.')
+else:
+  print('That is correct! Here\'s your flag: ' + flag)
+
+"=" is not an equality symbol in Python; it's for assignment
+"==" is for equality, so we fix that then run the file
+
+$ python3 fixed.py
+That is correct! Here's your flag: picoCTF{3qu4l1ty_n0t_4551gnm3nt_b4d595d9}

@@ -1,0 +1,46 @@
+$ nc saturn.picoctf.net 64710
+Please md5 hash the text between quotes, excluding the quotes: 'apples'
+Answer:
+0248c69b588d181c2322c2e21fe5fe2d
+0248c69b588d181c2322c2e21fe5fe2d
+Incorrect. Try again?
+Answer:
+0248c69b588d181c2322c2e21fe5fe2d
+0248c69b588d181c2322c2e21fe5fe2d
+Incorrect. Goodbye. Better luck next time!
+$
+
+Now that was sad. I think my problem was that
+I did an md5sum with the newline char included
+so I tried again
+
+$ nc saturn.picoctf.net 64710
+Please md5 hash the text between quotes, excluding the quotes: 'Michelangelo'
+Answer:
+0d46a3ff4160862bb8329524b99da972
+0d46a3ff4160862bb8329524b99da972
+Correct.
+Please md5 hash the text between quotes, excluding the quotes: 'Americans'
+Answer:
+165813154207e6cacef030430ea09616
+165813154207e6cacef030430ea09616
+Correct.
+Please md5 hash the text between quotes, excluding the quotes: 'amputations'
+Answer:
+1a132ba924b6ef44599dbdbf99ca6cd1
+1a132ba924b6ef44599dbdbf99ca6cd1
+Correct.
+picoCTF{4ppl1c4710n_r3c31v3d_91ab255f}
+$
+
+While in another terminal...
+$ echo -n "chorus girls" | md5sum
+fdaf7298de6707185d68175ba4bd2f17  -
+$ echo -n 'Michelangelo' | md5sum
+0d46a3ff4160862bb8329524b99da972  -
+$ echo -n 'Americans' | md5sum
+165813154207e6cacef030430ea09616  -
+$ echo -n 'amputations' | md5sum
+1a132ba924b6ef44599dbdbf99ca6cd1  -
+
+I wish I had written a script for this

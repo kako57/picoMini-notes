@@ -1,0 +1,15 @@
+Password Crack 3 this time exposes the password but it is among a list of possible ones.
+
+So I made a version of the script that will try all of the passwords and print the flag for me
+
+$ python3 solve.py
+ph6hCU|m5`o_g96nfdig^c385e098(
+1>7<0chd2jcb1kn/
+.:a?D+3g785na043>9
+                  4dfg2ggj
+$mfmPCy900j
+           bi3:c4l3[36l055m=x
+!mdhPA|<02obk6?c6i6[13i070h=z
+/9dhA|2d2o6k6176i813gd70fiz
+picoCTF{m45h_fl1ng1ng_64840799}
+$
